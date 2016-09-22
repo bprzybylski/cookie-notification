@@ -1,3 +1,10 @@
+/**
+* @Author: Bartek Przybylski
+* @Date:   2016-09-22T17:25:58+02:00
+* @Last modified by:   Bartek Przybylski
+* @Last modified time: 2016-09-22T19:26:21+02:00
+*/
+
 var cookieNotification = {
 
   params : {
