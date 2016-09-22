@@ -33,10 +33,10 @@ var cookieNotification = {
 
   install : function(o){
     o.style = [
-      "#cnContainer{ z-index: 2000; background-color: " + o.params.backgroundColor + "; position: fixed; bottom: 0; left: 0; box-sizing: border-box; width: 100%; padding: 1em 1em 0.5em 1em; }",
+      "#cnContainer{ font-size: 14px; font-family: 'tahoma', sans-serif; z-index: 2000; background-color: " + o.params.backgroundColor + "; position: fixed; bottom: 0; left: 0; box-sizing: border-box; width: 100%; padding: 1em 1em 0.5em 1em; }",
       "#cnContainer.on-top{ bottom: auto; top: 0; }",
       "#cnContainer h6, #cnContainer p{ max-width: " + o.params.maxWidth + "; }",
-      "#cnContainer h6{ margin: 0 auto 0.7em auto; padding: 0; line-height: 135%; font-size: 1em; font-weight: bold; }",
+      "#cnContainer h6{ margin: 0 auto 0.7em auto; padding: 0; line-height: 135%; font-size: 1em; font-weight: bold; color: " + o.params.textColor + "; }",
       "#cnContainer p{ margin: 0 auto 0.7em auto; padding: 0; line-height: 135%; font-size: 0.9em; color: " + o.params.textColor + "; }",
       "#cnContainer p a{ color: " + o.params.linkColor + "; text-decoration: none; }",
       "#cnContainer p a:hover{ text-decoration: underline; }",
